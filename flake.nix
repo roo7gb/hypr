@@ -11,7 +11,7 @@
     hyprland.url = "github:hyprwm/Hyprland";
 
     # use lasslus wrappers for dist
-    wrappers.url = "github:lasslus/wrappers";
+    wrappers.url = "github:lassulus/wrappers";
 
     # browser of choice
     zen-browser = {
