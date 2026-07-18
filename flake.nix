@@ -37,8 +37,6 @@
         yazi
         quickshell
         awww
-        hyprpolkitagent
-        pavucontrol
         hyprlock
         ;
       zen-browser = input { package = "zen-browser"; };
