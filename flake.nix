@@ -23,7 +23,7 @@
   outputs = { self, nixpkgs, wrappers, ... } @ inputs: let
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
-    hypr = inputs.hyprland.${system}.default;
+    hypr = inputs.hyprland.packages.${system}.default;
     defaultRuntimePkgs = let
       input = {
         package,
