@@ -40,6 +40,7 @@
         hyprlock
         hyprshot
         hyprpolkitagent
+        btop
         ;
       zen-browser = input { package = "zen-browser"; };
     };
