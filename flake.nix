@@ -38,6 +38,8 @@
         quickshell
         awww
         hyprlock
+        hyprshot
+        hyprpolkitagent
         ;
       zen-browser = input { package = "zen-browser"; };
     };
