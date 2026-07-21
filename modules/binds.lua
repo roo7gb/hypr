@@ -88,7 +88,7 @@ hl.bind(
 --- move to special workspace
 hl.bind(
   mainMod .. " + CTRL + S",
-  hl.dsp.winsow.move({ workspace = "special" }),
+  hl.dsp.window.move({ workspace = "special" }),
   { description = "Move active window to special workspace" }
 )
 --- toggle special workspace
