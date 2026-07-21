@@ -36,7 +36,6 @@
         wezterm
         yazi
         quickshell
-        awww
         hyprlock
         hyprshot
         hyprpolkitagent
