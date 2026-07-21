@@ -1,15 +1,15 @@
 -- hypr/modules/settings/rules.lua
 
 -- layer rules
-hl.layer_rule({ match = { namespace = "quickshell-bar" }, blur = true })
-hl.layer_rule({ match = { namespace = "quickshell-launcher" }, blur = true })
-hl.layer_rule({ match = { namespace = "quickshell-notifications" }, blur = true })
-hl.layer_rule({ match = { namespace = "quickshell-osd" }, blur = true })
+hl.layer_rule({ match = { namespace = "quickshell-bar" }, blur = false })
+hl.layer_rule({ match = { namespace = "quickshell-launcher" }, blur = false })
+hl.layer_rule({ match = { namespace = "quickshell-notifications" }, blur = false })
+hl.layer_rule({ match = { namespace = "quickshell-osd" }, blur = false })
 
-hl.layer_rule({ match = { namespace = "quickshell-bar" }, blur_popups = true })
-hl.layer_rule({ match = { namespace = "quickshell-launcher" }, blur_popups = true })
-hl.layer_rule({ match = { namespace = "quickshell-notifications" }, blur_popups = true })
-hl.layer_rule({ match = { namespace = "quickshell-osd" }, blur_popups = true })
+hl.layer_rule({ match = { namespace = "quickshell-bar" }, blur_popups = false })
+hl.layer_rule({ match = { namespace = "quickshell-launcher" }, blur_popups = false })
+hl.layer_rule({ match = { namespace = "quickshell-notifications" }, blur_popups = false })
+hl.layer_rule({ match = { namespace = "quickshell-osd" }, blur_popups = false })
 
 -- window rules
 hl.window_rule({ match = { class = "^(hyprpolkitagent)$" }, float = true })
