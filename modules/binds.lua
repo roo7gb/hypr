@@ -66,7 +66,7 @@ hl.bind(
 --- open app launcher
 hl.bind(
   mainMod .. " + SUPER_L",
-  hl.dsp.exec_cmd("qs ipc call launcher toggle"),
+  hl.dsp.exec_cmd("quickshell ipc call launcher toggle"),
   { description = "Open application launcher" }
 )
 
