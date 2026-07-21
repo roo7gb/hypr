@@ -25,7 +25,7 @@ hl.bind(
 )
 --- kill active window
 hl.bind(
-  mainMod .. "+ SHIFT + Q",
+  mainMod .. " + SHIFT + Q",
   hl.dsp.window.kill(),
   { description = "Kill active window" }
 )
@@ -51,7 +51,7 @@ hl.bind(
 )
 --- open floating terminal
 hl.bind(
-  mainMod .. "+ CTRL + RETURN",
+  mainMod .. " + CTRL + RETURN",
   hl.dsp.exec_cmd("[float] wezterm"),
   { description = "Open wezterm terminal emulator (floating)" }
 )
@@ -292,25 +292,25 @@ hl.bind(
 -- mouse controls
 --- next ws
 hl.bind(
-  mainMod .. "mouse_down",
+  mainMod .. " + mouse_down",
   hl.dsp.focus({ workspace = "e+1" }),
   { description = "Move to next workspace" }
 )
 --- prev ws
 hl.bind(
-  mainMod .. "mouse_up",
+  mainMod .. " + mouse_up",
   hl.dsp.focus({ workspace = "e-1" }),
   { description = "Move to previous workspace" }
 )
 --- drag window
 hl.bind(
-  mainMod .. "mouse:272",
+  mainMod .. " + mouse:272",
   hl.dsp.window.drag(),
   { description = "Drag window" }
 )
 --- resize window
 hl.bind(
-  mainMod .. "mouse:273",
+  mainMod .. " + mouse:273",
   hl.dsp.window.resize(),
   { description = "Resize window" }
 )
