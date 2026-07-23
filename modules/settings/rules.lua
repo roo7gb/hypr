@@ -11,6 +11,13 @@ hl.layer_rule({ match = { namespace = "quickshell-launcher" }, blur_popups = fal
 hl.layer_rule({ match = { namespace = "quickshell-notifications" }, blur_popups = false })
 hl.layer_rule({ match = { namespace = "quickshell-osd" }, blur_popups = false })
 
+hl.layer_rule({ match = { namespace = "quickshell-bar" }, ignore_alpha = 0.1 })
+hl.layer_rule({ match = { namespace = "quickshell-launcher" }, ignore_alpha = 0.1 })
+hl.layer_rule({ match = { namespace = "quickshell-notifications" }, ignore_alpha = 0.1 })
+hl.layer_rule({ match = { namespace = "quickshell-osd" }, ignore_alpha = 0.1 })
+
+hl.layer_rule({ match = { namespace = "selection" }, no_anim = true })
+
 -- window rules
 hl.window_rule({ match = { class = "^(hyprpolkitagent)$" }, float = true })
 hl.window_rule({ match = { class = "^(pavucontrol|org.pulseaudio.pavucontrol)$" }, float = true })
