@@ -16,6 +16,7 @@ hl.layer_rule({ match = { namespace = "quickshell-launcher" }, ignore_alpha = 0.
 hl.layer_rule({ match = { namespace = "quickshell-notifications" }, ignore_alpha = 0.1 })
 hl.layer_rule({ match = { namespace = "quickshell-osd" }, ignore_alpha = 0.1 })
 
+hl.layer_rule({ match = { namespace = "hyprshot" }, no_anim = true })
 hl.layer_rule({ match = { namespace = "selection" }, no_anim = true })
 
 -- window rules
