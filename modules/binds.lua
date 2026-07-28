@@ -131,7 +131,7 @@ hl.bind(
 )
 --- volume down (audio keys)
 hl.bind(
-  "XF86AudioRaiseVolume",
+  "XF86AudioLowerVolume",
   hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"),
   {
     locked = true,
