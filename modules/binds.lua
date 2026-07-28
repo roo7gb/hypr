@@ -277,7 +277,7 @@ for i = 1, 10 do
   --- silent move ws
   hl.bind(
     mainMod .. " + SHIFT + " .. key,
-    hl.dsp.focus({ workspace = i, follow = false }),
+    hl.dsp.window.move({ workspace = i, follow = false }),
     { description = "Silently move window to workspace " .. i }
   )
 end
