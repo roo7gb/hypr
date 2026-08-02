@@ -33,7 +33,7 @@
     in {
       inherit
         (pkgs)
-        thunar
+        nautilus
         wezterm
         quickshell
         hyprlock
