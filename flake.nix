@@ -34,7 +34,7 @@
       inherit
         (pkgs)
         wezterm
-        yazi
+        nautilus
         quickshell
         hyprlock
         hyprshot
