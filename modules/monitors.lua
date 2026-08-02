@@ -17,7 +17,8 @@ hl.monitor({
 
 hl.monitor({
   output = "HDMI-A-2",
-  mode = "highres",
+  mode = "3840x2160@29.97",
+  bitdepth = 8,
   position = "auto",
   scale = 1,
 })
