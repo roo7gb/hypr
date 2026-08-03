@@ -11,15 +11,15 @@ hl.monitor({
 hl.monitor({
   output = "HDMI-A-1",
   mode = "highres",
-  position = "0x0",
+  position = "1080x840",
   transform = 3,
 })
 
-hl.monitor({
-  output = "HDMI-A-2",
-  mode = "1920x1080@59.94",
-  bitdepth = 8,
-  position = "auto",
-  scale = 1,
-})
+-- hl.monitor({
+--   output = "HDMI-A-2",
+--   mode = "1920x1080@59.94",
+--   bitdepth = 8,
+--   position = "auto",
+--   scale = 1,
+-- })
 
